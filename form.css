@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(bg6.jpg) no-repeat center center fixed ;
+    background-size: cover;
+}
+
+.container{
+    /* border: 5px solid black; */
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 65%;
+}
+.container h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+    color: black;
+    border-bottom: 5px solid black;
+    padding: 13px 0;
+    display: inline;
+}
+.box{
+    width: 100%;
+    margin: 35px 0px;
+    border-bottom: 2px solid black;
+}
+.box input{
+    background: none;
+    width: 75%;
+    outline: none;
+    border: none;
+    /* margin:2px 23px ; */
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-top: 38px;
+}
+::placeholder{
+    color: black;
+}
+
+.box i{
+    width: 30px;
+    text-align: center;
+    color: black;
+}
+.btn{
+    left: 80%;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    margin-left: 5px;
+    border-radius: 10px;
+    border:2px solid black;
+    height: 25px;
+    background: none;
+    font-size: 18px;
+    padding: 10px 21px;
+    height: 40px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color:#B18326;
+}
